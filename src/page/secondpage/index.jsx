@@ -2,7 +2,6 @@ import React from 'react';
 import style from './info.module.scss';
 import grouppic from '../../images/Group12.png';
 import Header from '../../components/header';
-import TopGreen from '../../svg/topgreen';
 import GreenAnchor from '../../svg/greenanchor';
 import Caal from '../../svg/caal';
 import YellowAnchor from '../../svg/yellowanchor';
