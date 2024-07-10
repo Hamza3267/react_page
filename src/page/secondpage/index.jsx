@@ -39,7 +39,7 @@ const Info = () => {
                </div> 
             <h4>Start Now</h4>
             <p>Jump right into the dashboard and create a working survey within 2 minutes.</p>
-            <a >Start Now <GreenAnchor /></a>
+            <p >Start Now <GreenAnchor /></p>
           </div>
           <div className={style.yellowbox}>
            
@@ -49,7 +49,7 @@ const Info = () => {
             
             <h4>1:1 Onboarding</h4>
             <p>Need to speak with a human? Book a private demo call with our team to learn more about us.</p>
-            <a >Book a demo <YellowAnchor/></a>
+            <p>Book a demo <YellowAnchor/></p>
           </div>
         </div>
       </div>
