@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../../components/header";
 import style from "./home.module.scss";
+import { useNavigate } from 'react-router-dom';
 import pic1 from "../../images/pic1.png";
 import pic2 from "../../images/pic2.png";
 import pic3 from "../../images/pic3.png";
@@ -12,6 +13,11 @@ import insta from "../../images/Instagram.png"
 import twtr from "../../images/TwitterX.png"
 import SimpleSlider from "../../components/slickslider/slider";
 const Home = () => {
+  const navigate = useNavigate();
+
+  const navigateToDemo = () => {
+    navigate('/demo');
+  };
   return (
     <>
      <section className={style.holepage}>
@@ -30,7 +36,7 @@ const Home = () => {
           </p>
           <div className={style.btndiv}>
             <button className={style.btn1}>Find your rewards now</button>
-            <button className={style.btn2}>Watch The Demo</button>
+            <button className={style.btn2} onClick={navigateToDemo}>Watch The Demo</button>
           </div>
         </div>
         <div className={style.picdiv1}>
