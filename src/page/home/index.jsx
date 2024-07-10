@@ -1,16 +1,16 @@
 import React from "react";
-import Header from "../components/header";
+import Header from "../../components/header";
 import style from "./home.module.scss";
-import pic1 from "../images/pic1.png";
-import pic2 from "../images/pic2.png";
-import pic3 from "../images/pic3.png";
-import pic4 from "../images/pic4.png";
-import pic5 from "../images/pic5.png";
-import pic6 from "../images/pic6.png";
-import Facebook from "../images/Facebook.png"
-import insta from "../images/Instagram.png"
-import twtr from "../images/TwitterX.png"
-import SimpleSlider from "../components/slickslider/slider";
+import pic1 from "../../images/pic1.png";
+import pic2 from "../../images/pic2.png";
+import pic3 from "../../images/pic3.png";
+import pic4 from "../../images/pic4.png";
+import pic5 from "../../images/pic5.png";
+import pic6 from "../../images/pic6.png";
+import Facebook from "../../images/Facebook.png"
+import insta from "../../images/Instagram.png"
+import twtr from "../../images/TwitterX.png"
+import SimpleSlider from "../../components/slickslider/slider";
 const Home = () => {
   return (
     <>
