@@ -8,7 +8,6 @@ import pic3 from "../../images/backpic3.png";
 import pic4 from "../../images/backpic4.png";
 import profile1 from "../../images/profile1.png";
 import profile2 from "../../images/profile2.png";
-import profile3 from "../../images/profile3.png";
 import style from "./slide.module.scss";
 import coma from "../../images/clarityblock.png";
 
